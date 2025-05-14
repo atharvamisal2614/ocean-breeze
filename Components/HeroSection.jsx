@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-
+import Link from "next/link";
 export default function HeroSection() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -43,6 +43,9 @@ export default function HeroSection() {
           </li>
           <li>
             <a href="#" className="hover:text-gray-300">About</a>
+          </li>
+           <li>
+            <Link href="/rooms" className="hover:text-gray-300">Rooms</Link>
           </li>
           <li>
             <a href="#" className="hover:text-gray-300">Services</a>
