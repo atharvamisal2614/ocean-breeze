@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { MdSquareFoot, MdPeople } from "react-icons/md";
+import { MdSquareFoot, MdPeople , MdOutlineChair} from "react-icons/md";
 import { BiBlanket } from "react-icons/bi";
 import {
   MdOutlineBedroomParent,
