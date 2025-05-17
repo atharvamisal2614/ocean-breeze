@@ -10,7 +10,7 @@ import {
   MdCleaningServices,
 } from "react-icons/md";
 import { FaBed } from "react-icons/fa";
-import { GiTowel, GiWaterBottle, GiPillow , GiVacuumCleaner } from "react-icons/gi";
+import { GiTowel, GiWaterBottle, GiPillow , GiVacuumCleaner , GiBathtub} from "react-icons/gi";
 import { FaBath, FaWifi, FaSnowflake, FaNewspaper,FaToilet   } from "react-icons/fa";
 import { WiWindy } from "react-icons/wi";
 
