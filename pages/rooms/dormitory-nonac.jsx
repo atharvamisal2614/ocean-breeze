@@ -15,20 +15,21 @@ import { WiWindy } from "react-icons/wi";
 
 const Cottages = () => {
   const features = [
-    { icon: <MdOutlineBedroomParent size={40} className="text-red-500" />, name: "Comfortable interiors" },
-    { icon: <MdTv size={40} className="text-blue-500" />, name: "TV with satellite channels" },
-    { icon: <WiWindy size={40} className="text-yellow-500" />, name: "Ceiling fan" },
-    { icon: <FaBath size={40} className="text-green-500" />, name: "Private bathroom" },
+
     { icon: <MdChargingStation size={40} className="text-purple-500" />, name: "Seating area with charging points" },
     { icon: <GiTowel size={40} className="text-pink-500" />, name: "Blanket & Towels" },
+
+     { icon: <FaWifi size={40} className="text-cyan-600 mx-auto" />, name: "Wi-Fi" },
+      { icon: <MdTv size={40} className="text-blue-500" />, name: "TV" },
+       { icon: <MdCleaningServices size={40} className="text-gray-700 mx-auto" />, name: "Daily Housekeeping" },
   ];
 
   const amenities = [
-    { icon: <FaWifi size={40} className="text-cyan-600 mx-auto" />, name: "Wi-Fi" },
-    { icon: <FaSnowflake size={40} className="text-blue-400 mx-auto" />, name: "Air Conditioning" },
+   
+   
     { icon: <GiWaterBottle size={40} className="text-teal-500 mx-auto" />, name: "Mineral Water (extra charge)" },
     { icon: <MdCleaningServices size={40} className="text-gray-700 mx-auto" />, name: "Daily Housekeeping" },
-    { icon: <GiPillow size={40} className="text-orange-500 mx-auto" />, name: "Pillow Menu" },
+    { icon: <FaBath size={40} className="text-green-500" />, name: "Hot and Cold Water" },
     { icon: <FaNewspaper size={40} className="text-gray-500 mx-auto" />, name: "Newspaper" },
   ];
 
@@ -44,7 +45,7 @@ const Cottages = () => {
       <div className="flex flex-col md:flex-row w-full max-w-7xl gap-8">
         {/* Left: Features + Images */}
         <div className="md:w-3/5  p-6">
-          <h1 className="text-4xl text-gray-700 mb-8 font-semibold">Cottage Rooms</h1>
+          <h1 className="text-4xl text-gray-700 mb-8 font-semibold"> Bormitory Non-AC</h1>
 
           <div className="relative w-full h-[300px] rounded-lg overflow-hidden mb-8">
             <Image
@@ -86,7 +87,7 @@ const Cottages = () => {
           <div>
             <h2 className="text-3xl mt-3 font-semibold mb-4 text-gray-700">Description</h2>
             <p className="mb-6 text-gray-600 leading-relaxed">
-              Our cozy and classically decorated Cottages are perfect for guests seeking comfort and tranquility. Each cottage is thoughtfully designed with comfortable interiors, providing a relaxing retreat. Enjoy modern amenities and a peaceful atmosphere that ensures a memorable stay for families and groups of up to 4 guests.
+              Perfect for budget travelers or groups, the Non-AC Dormitory provides shared comfort at an affordable price.
             </p>
 
             <div className="flex flex-col gap-4 mb-6">
@@ -98,7 +99,7 @@ const Cottages = () => {
   </div>
   <div className="flex items-center gap-3 text-green-500">
     <MdPeople size={30} />
-    <span className="text-gray-600 text-lg">Occupancy: Max 4 Guests</span>
+    <span className="text-gray-600 text-lg">Occupancy: Max 8 Guests</span>
   </div>
   <div className="flex items-center gap-3 text-blue-500">
     <FaBed size={30} />

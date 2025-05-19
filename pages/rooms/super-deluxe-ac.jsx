@@ -11,24 +11,26 @@ import {
 import { FaBed } from "react-icons/fa";
 import { GiTowel, GiWaterBottle, GiPillow } from "react-icons/gi";
 import { FaBath, FaWifi, FaSnowflake, FaNewspaper } from "react-icons/fa";
-import { WiWindy } from "react-icons/wi";
+import { BiBlanket } from "react-icons/bi";
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { FcFilingCabinet } from "react-icons/fc";
 
 const Cottages = () => {
   const features = [
-    { icon: <MdOutlineBedroomParent size={40} className="text-red-500" />, name: "Comfortable interiors" },
+    { icon: <BsFillTelephoneFill size={40} className="text-red-500" />, name: "Closets, Telephone" },
     { icon: <MdTv size={40} className="text-blue-500" />, name: "TV with satellite channels" },
-    { icon: <WiWindy size={40} className="text-yellow-500" />, name: "Ceiling fan" },
+    { icon: <FcFilingCabinet size={40} className="text-yellow-500" />, name: "Cupboard" },
     { icon: <FaBath size={40} className="text-green-500" />, name: "Private bathroom" },
     { icon: <MdChargingStation size={40} className="text-purple-500" />, name: "Seating area with charging points" },
     { icon: <GiTowel size={40} className="text-pink-500" />, name: "Blanket & Towels" },
+    { icon: <FaWifi size={40} className="text-pink-500" />, name: "Paid Wifi" },
   ];
 
   const amenities = [
-    { icon: <FaWifi size={40} className="text-cyan-600 mx-auto" />, name: "Wi-Fi" },
-    { icon: <FaSnowflake size={40} className="text-blue-400 mx-auto" />, name: "Air Conditioning" },
-    { icon: <GiWaterBottle size={40} className="text-teal-500 mx-auto" />, name: "Mineral Water (extra charge)" },
+    
     { icon: <MdCleaningServices size={40} className="text-gray-700 mx-auto" />, name: "Daily Housekeeping" },
-    { icon: <GiPillow size={40} className="text-orange-500 mx-auto" />, name: "Pillow Menu" },
+  { icon: <FaBath size={40} className="text-green-500" />, name: "Hot and Cold Water" },
+  { icon: <BiBlanket size={40} className="text-pink-500" />, name: "Blanket" },
     { icon: <FaNewspaper size={40} className="text-gray-500 mx-auto" />, name: "Newspaper" },
   ];
 
@@ -44,7 +46,7 @@ const Cottages = () => {
       <div className="flex flex-col md:flex-row w-full max-w-7xl gap-8">
         {/* Left: Features + Images */}
         <div className="md:w-3/5  p-6">
-          <h1 className="text-4xl text-gray-700 mb-8 font-semibold">Cottage Rooms</h1>
+          <h1 className="text-4xl text-gray-700 mb-8 font-semibold">Super Deluxe Room(AC)</h1>
 
           <div className="relative w-full h-[300px] rounded-lg overflow-hidden mb-8">
             <Image
@@ -86,7 +88,7 @@ const Cottages = () => {
           <div>
             <h2 className="text-3xl mt-3 font-semibold mb-4 text-gray-700">Description</h2>
             <p className="mb-6 text-gray-600 leading-relaxed">
-              Our cozy and classically decorated Cottages are perfect for guests seeking comfort and tranquility. Each cottage is thoughtfully designed with comfortable interiors, providing a relaxing retreat. Enjoy modern amenities and a peaceful atmosphere that ensures a memorable stay for families and groups of up to 4 guests.
+              Elevate your stay in our Super Deluxe AC Rooms featuring upgraded amenities and a refined ambiance.
             </p>
 
             <div className="flex flex-col gap-4 mb-6">
@@ -94,7 +96,7 @@ const Cottages = () => {
 <h3 className="text-xl font-semibold  text-gray-700">Size</h3>
   <div className="flex items-center gap-3 text-red-500">
     <MdSquareFoot size={30} />
-    <span className="text-gray-600 text-lg">180 sq.ft (17 sq.mt)</span>
+    <span className="text-gray-600 text-lg">225 sq.ft (21 sq.mt) </span>
   </div>
   <div className="flex items-center gap-3 text-green-500">
     <MdPeople size={30} />

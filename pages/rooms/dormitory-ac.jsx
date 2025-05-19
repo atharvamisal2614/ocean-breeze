@@ -15,20 +15,21 @@ import { WiWindy } from "react-icons/wi";
 
 const Cottages = () => {
   const features = [
-    { icon: <MdOutlineBedroomParent size={40} className="text-red-500" />, name: "Comfortable interiors" },
-    { icon: <MdTv size={40} className="text-blue-500" />, name: "TV with satellite channels" },
-    { icon: <WiWindy size={40} className="text-yellow-500" />, name: "Ceiling fan" },
-    { icon: <FaBath size={40} className="text-green-500" />, name: "Private bathroom" },
-    { icon: <MdChargingStation size={40} className="text-purple-500" />, name: "Seating area with charging points" },
-    { icon: <GiTowel size={40} className="text-pink-500" />, name: "Blanket & Towels" },
+    
+
+       { icon: <FaSnowflake size={40} className="text-blue-400 mx-auto" />, name: "Air Conditioning" },
+           { icon: <MdTv size={40} className="text-blue-500" />, name: "TV with satellite channels" },
+              { icon: <FaBath size={40} className="text-green-500" />, name: "Hot and Cold Water" },
+                  { icon: <MdCleaningServices size={40} className="text-gray-700 mx-auto" />, name: "Room Services" },
+                  { icon: <BiBlanket size={40} className="text-pink-500" />, name: "Blanket" },
   ];
 
   const amenities = [
     { icon: <FaWifi size={40} className="text-cyan-600 mx-auto" />, name: "Wi-Fi" },
-    { icon: <FaSnowflake size={40} className="text-blue-400 mx-auto" />, name: "Air Conditioning" },
-    { icon: <GiWaterBottle size={40} className="text-teal-500 mx-auto" />, name: "Mineral Water (extra charge)" },
+  { icon: <WiWindy size={40} className="text-yellow-500" />, name: "Ceiling fan" },
+
     { icon: <MdCleaningServices size={40} className="text-gray-700 mx-auto" />, name: "Daily Housekeeping" },
-    { icon: <GiPillow size={40} className="text-orange-500 mx-auto" />, name: "Pillow Menu" },
+   
     { icon: <FaNewspaper size={40} className="text-gray-500 mx-auto" />, name: "Newspaper" },
   ];
 
@@ -86,7 +87,7 @@ const Cottages = () => {
           <div>
             <h2 className="text-3xl mt-3 font-semibold mb-4 text-gray-700">Description</h2>
             <p className="mb-6 text-gray-600 leading-relaxed">
-              Our cozy and classically decorated Cottages are perfect for guests seeking comfort and tranquility. Each cottage is thoughtfully designed with comfortable interiors, providing a relaxing retreat. Enjoy modern amenities and a peaceful atmosphere that ensures a memorable stay for families and groups of up to 4 guests.
+              Our AC Dormitory is spacious and ideal for large families or group getaways. Enjoy community comfort with added cooling.
             </p>
 
             <div className="flex flex-col gap-4 mb-6">
@@ -94,15 +95,15 @@ const Cottages = () => {
 <h3 className="text-xl font-semibold  text-gray-700">Size</h3>
   <div className="flex items-center gap-3 text-red-500">
     <MdSquareFoot size={30} />
-    <span className="text-gray-600 text-lg">180 sq.ft (17 sq.mt)</span>
+    <span className="text-gray-600 text-lg">625 sq.ft (58 sq.mt) </span>
   </div>
   <div className="flex items-center gap-3 text-green-500">
     <MdPeople size={30} />
-    <span className="text-gray-600 text-lg">Occupancy: Max 4 Guests</span>
+    <span className="text-gray-600 text-lg">Occupancy: Max 8 Guests</span>
   </div>
   <div className="flex items-center gap-3 text-blue-500">
     <FaBed size={30} />
-    <span className="text-gray-600 text-lg">Bed: Double Bed</span>
+    <span className="text-gray-600 text-lg">Bed: King Bed</span>
   </div>
 </div>
             <h3 className="text-2xl font-semibold mb-4 text-gray-700">Top Amenities</h3>
