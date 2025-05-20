@@ -12,13 +12,13 @@ import { FaBed } from "react-icons/fa";
 import { GiTowel, GiWaterBottle, GiPillow } from "react-icons/gi";
 import { FaBath, FaWifi, FaSnowflake, FaNewspaper } from "react-icons/fa";
 import { WiWindy } from "react-icons/wi";
-
+import { BiBlanket } from "react-icons/bi";
 const Cottages = () => {
   const features = [
-    
 
-       { icon: <FaSnowflake size={40} className="text-blue-400 mx-auto" />, name: "Air Conditioning" },
+    
            { icon: <MdTv size={40} className="text-blue-500" />, name: "TV with satellite channels" },
+              { icon: <FaSnowflake size={40} className="text-blue-400 mx-auto" />, name: "Air Conditioning" },
               { icon: <FaBath size={40} className="text-green-500" />, name: "Hot and Cold Water" },
                   { icon: <MdCleaningServices size={40} className="text-gray-700 mx-auto" />, name: "Room Services" },
                   { icon: <BiBlanket size={40} className="text-pink-500" />, name: "Blanket" },
